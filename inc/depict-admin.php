@@ -87,6 +87,17 @@ function depict_settings_init() {
         '',
         'yes'
     );
+    register_setting(
+        'depict-pluginPage',
+        'depict_width',
+        'sanitize_textfield'
+    );
+    add_option(
+        'depict_width',
+        '300',
+        '',
+        'yes'
+    );
 }
 
 function render_depict_admin_page_ui() {
