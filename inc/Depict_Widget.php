@@ -47,7 +47,7 @@ function __construct() {
 
     <div class="depict-widget"
          style="font-family:<?php echo esc_attr( $depict_font ); ?>;
-                max-width:<?php echo esc_attr( $depict_width ); ?>px">
+                width:<?php echo esc_attr( $depict_width ); ?>px">
         <header>
         <h4><?php echo esc_html( get_the_author_meta( 'first_name' ) ); ?>
                 <span class="sepspace"> </span>
