@@ -20,10 +20,8 @@
 }
 
 .depict-widget {
-
-
     position: relative;
-    margin: 0 .67%;
+    margin: 0 auto;
     background: transparent;
 }
 .depict-widget .depict-gravatar img {
@@ -47,6 +45,22 @@
 .depict-widget header {
 border-top: 1px solid #eee;
 }
+.widget.widget_depict_widget:before {
+    content: " ";
+    clear:both;
+}
+.widget.widget_depict_widget {
+    display: block;
+    margin-top: 15px;
+    padding-top: 20px;
+}
+.widget.widget_depict_widget h4 {
+    margin-bottom: 0;
+    margin-top: .5em;
+    padding-top: 5px;
+    border-top: 1px solid #eee;
+}
+
 .depict-group {
     padding: 0;
     list-style: none;
@@ -62,7 +76,7 @@ border-top: 1px solid #eee;
 
 }
 .depict-group > li.depict-group-item {
-padding-left: 12px;
+padding-left: 7px;
 }
 .depict-group-item:first-child {
   margin-top: 3px;
