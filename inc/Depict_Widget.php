@@ -36,8 +36,8 @@ function __construct() {
 
 
 	// Set some defaults for option values.
-    $depict_width = get_option ( 'depict_width', '300' );
-        if( $depict_width == "") $depict_width="300";
+    $depict_width = get_option ( 'depict_width', '90' );
+        if( $depict_width == "") $depict_width="90";
     $depict_font = get_option ( 'depict_font', 'inherit' );
         if( $depict_font == "") $depict_font="inherit";
     $depict_widgeter = get_option ( 'depict_widgeter', 'depict_full' );
@@ -47,7 +47,7 @@ function __construct() {
 
     <div class="depict-widget"
          style="font-family:<?php echo esc_attr( $depict_font ); ?>;
-                width:<?php echo esc_attr( $depict_width ); ?>px">
+                width:<?php echo esc_attr( $depict_width ); ?>%">
         <header>
         <h4><?php echo esc_html( get_the_author_meta( 'first_name' ) ); ?>
                 <span class="sepspace"> </span>
