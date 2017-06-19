@@ -1,13 +1,13 @@
-Plugin Name: Depict
+=== Depict ===
 Plugin URI: http://themes.tradesouthwest.com/plugins/
 Description: Adds several new fields to User Profile which can be displayed on a custom widget that is created by this plugin.
-Version: 1.0
+Version: 1.2
 Author: tradesouthwest
 Author URI: http://tradesouthwest.com/
-Stable Tag: 1.0
+Stable Tag: 1.2
 Requires at least: 3.8
-Tested up to: 4.7.4
-Contributors: none.
+Tested up to: 4.8
+Contributors: tradesouthwest
 
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -40,6 +40,15 @@ A.: Yes, there are about four combinations that will be possible between the wid
 2. Sidebar Widget usage
 
 == Change Log ==
+June 18, 2017
+v 1.2
+* made widget width fluid
+* changed input type to number
+
+June 17, 2017
+v 1.1
+* fixed margins and add option
+
 May 12th 2017
 v 1.0 
 * first release - original version
