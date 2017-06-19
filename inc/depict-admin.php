@@ -94,7 +94,7 @@ function depict_settings_init() {
     );
     add_option(
         'depict_width',
-        '300',
+        '90',
         '',
         'yes'
     );
@@ -202,13 +202,15 @@ function render_depict_admin_page_ui() {
         </tr></table>
         <hr>
         <table class="form-table">
-        <tr><th><label for="depict_width"><?php esc_attr_e( 'Type in width of your theme sidebar', 'depict' ); ?>**<br><small><em><?php esc_attr_e( 'This will determine the maximum width of the Depict Widget. Only enter a number - attribute will be in pixels px.', 'depict' ); ?>
+        <tr><th><label for="depict_width"><?php esc_attr_e( 'Type in width of your theme sidebar', 'depict' ); ?>**<br>
+		<small><em><?php esc_attr_e( 'This will determine the maximum width of the Depict Widget. 
+		Only enter a number - attribute will be in percentage', 'depict' ); ?>
                 </em></small></label></th>
         </tr>
 
         <tr><td><input type="text"
                        name="depict_width" id="depictWidth"
-                       placeholder="default is 300"
+                       placeholder="default is 90"
                        value="<?php echo esc_attr( get_option(
                                 'depict_width' )); ?>" >
                        <span class="under"><?php echo esc_html(
